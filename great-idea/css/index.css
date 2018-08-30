@@ -64,3 +64,176 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width:95%;
+	margin:auto;
+}
+header{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin:10px;
+}
+header nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items:center;
+}
+header nav a{
+	padding:20px 85px;
+	text-decoration: none;
+	color:gray;
+	padding-left:10px;
+}
+header .logo{
+	width:15%;
+	height:20%;
+	align-self:center;
+	padding-right:35px;
+	margin-right:25px;
+}
+.container{
+	width:98%;
+	margin:auto;
+	padding:5px;
+}
+.services-header-img{
+	width: 99%;
+	padding:20px;
+}
+.container2{
+	width:95%;
+	margin:auto;
+	padding:5px;
+	border-bottom: 1px solid black;
+}
+.container2 p{
+	padding-bottom:20px;
+}
+.container3{
+	width:95%;
+	margin:auto;
+	padding:5px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+.flexbox1{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.boxmodel1{
+	border:1px solid black;
+	padding:50px 10px;
+	background-color:lightgray;
+	color:black;
+	width:48%;
+	margin: 40px 0px;
+	height:83%;
+	align-self:center;
+	font-size:20px;
+	padding-bottom:10px;
+}
+.boxmodel2{
+	border:1px solid black;
+	padding: 50px 10px;
+	background-color:lightgray;
+	color:black;
+	width:48%;
+	margin: 40px 0px;
+	height:83%;
+align-self: center;
+font-size:20px;
+padding-bottom:10px;
+}
+.boxmodel3{
+	border:1px solid black;
+	padding:50px 10px;
+	background-color:lightgray;
+	color:black;
+	width:48%;
+	margin: 40px 0px;
+	height:83%;
+font-size:20px;
+padding-bottom:10px;
+}
+.boxmodel4{
+	border:1px solid black;
+	padding:10px;
+	background-color:lightgray;
+	color:black;
+	width:48%;
+	margin: 40px 0px;
+	height:83%;
+	font-size: 20px;
+	padding:50px 10px;
+	padding-bottom:10px;
+}
+.boxmodel5{
+	border:1px solid black;
+	padding:10px;
+	background-color:lightgray;
+	color:black;
+	width:48%;
+	margin: 40px 0px;
+	height:83%;
+	font-size:20px;
+	padding:50px 10px;
+	padding-bottom:10px;
+}
+.boxmodel6{
+	border:1px solid black;
+	padding:10px;
+	background-color:lightgray;
+	color:black;
+	width:48%;
+	margin: 40px 0px;
+	height:83%;
+	font-size:20px;
+	padding:50px 10px;
+	padding-bottom:10px;
+}
+
+.flexbox2{
+	display:flex;
+	justify-content:space-between;
+}
+.flexbox3{
+	display:flex;
+	justify-content: space-between;
+}
+.button{
+	border:1px solid black;
+	border-radius: 10%;
+	margin:10px;
+	padding:10px;
+}
+.container4{
+	width:95%;
+	margin:auto;
+	display:flex;
+	justify-content: space-between;
+	padding-top:10px;
+}
+.container4 .box1{
+	width:40%;
+	padding-top:20px;
+}
+.container4 .box2{
+	width:50%
+	padding-top:100px;
+}
+.container4 .services-header-img{
+	width:100%;
+
+}
+section{
+	padding:20px 0px;
+}
+.centerme{
+	margin-top: 50px;
+	text-align: center;
+}
